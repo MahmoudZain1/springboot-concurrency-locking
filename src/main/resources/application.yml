@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: seatbooking
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Seat
+    username: mahmoud_zain
+    password: password
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
